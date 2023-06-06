@@ -1,0 +1,57 @@
+
+/* TIC-TAC-TOE GAME */
+.cell{
+    width: 98px;
+    height: 98px;
+    border: 3px solid black;
+    box-shadow: 0 0 3 2px;
+    line-height: 74px;
+    font-size: 65px;
+    cursor: pointer;
+
+}
+#gameContainer{
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+    background-color: greenyellow;
+    background-size: cover;
+    height: 100vh;
+    padding: 20px;
+    
+}
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    width: 415px;
+    margin: auto;
+    background-color: green;
+    color: white;
+
+}
+.gameheader{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: rgb(117, 92, 92);
+    box-shadow: rgb(29, 7, 49);
+}
+#restartBtn{
+    line-height: 30px ;
+    width: 100px;
+    color: white;
+    border-radius: 5px;
+    /* font-size: larger; */
+    font-weight: bold;
+    background-color: green;
+}
+#learn{
+    line-height: 30px ;
+    width: 100px;
+    color: white;
+    border-radius: 5px;
+    /* font-size: larger; */
+    font-weight: bold;
+    background-color: green;
+}
+
+
+

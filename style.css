@@ -53,5 +53,146 @@
     background-color: green;
 }
 
+@media screen and (max-width: 1024px){
+    .cell{
+        width: 120px;
+        height: 120px;
+        border: 3px solid black;
+        box-shadow: 0 0 3 2px;
+        line-height: 74px;
+        font-size: 75px;
+        cursor: pointer;
+        text-align: center;
+        justify-content: center;
+    
+    }
+    #gameContainer{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        background-color: greenyellow;
+        background-size: cover;
+        height: 100vh;
+        width: 92%;
+        padding: 20px;
+        
+    }
+    #cellContainer{
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        width: 500px;
+        text-align: center;
+        margin: auto;
+        background-color: green;
+        color: white;
+    
+    }
+    p{
+        font-size: 1.9rem;
+    }
+    .gameheader{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 70px;
+        color: rgb(117, 92, 92);
+        box-shadow: rgb(29, 7, 49);
+    }
+    #statusText{
+        font-size: 1.9rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    #restartBtn{
+        line-height: 30px ;
+        width: 250px;
+        height: 60px;
+        color: white;
+        border-radius: 5px;
+        font-size: 2rem;
+        font-weight: bold;
+        background-color: green;
+    }
+    #learn{
+        line-height: 30px ;
+        width: 250px;
+        height: 60px;
+        color: white;
+        border-radius: 5px;
+        font-size: 2rem;
+        font-weight: bold;
+        background-color: green;
+    }
+    
+    
+}    
+
+
+@media screen and (max-width: 600px){
+    .cell{
+        width: 80px;
+        height: 80px;
+        border: 3px solid black;
+        box-shadow: 0 0 3 2px;
+        line-height: 74px;
+        font-size: 75px;
+        cursor: pointer;
+        text-align: center;
+        justify-content: center;
+    
+    }
+    #gameContainer{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        background-color: greenyellow;
+        background-size: cover;
+        height: 140vh;
+        width: 92%;
+        padding: 20px;
+        
+    }
+    #cellContainer{
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        width: 350px;
+        text-align: center;
+        margin: auto;
+        background-color: green;
+        color: white;
+    
+    }
+    p{
+        font-size: 1.9rem;
+    }
+    .gameheader{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 70px;
+        color: rgb(117, 92, 92);
+        box-shadow: rgb(29, 7, 49);
+    }
+    #statusText{
+        font-size: 1.9rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    #restartBtn{
+        line-height: 30px ;
+        width: 250px;
+        height: 60px;
+        color: white;
+        border-radius: 5px;
+        font-size: 2rem;
+        font-weight: bold;
+        background-color: green;
+    }
+    #learn{
+        line-height: 30px ;
+        width: 250px;
+        height: 60px;
+        color: white;
+        border-radius: 5px;
+        font-size: 2rem;
+        font-weight: bold;
+        background-color: green;
+    }
+    
+    
+}    
+
 
 
